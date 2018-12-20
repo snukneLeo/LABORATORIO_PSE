@@ -1,0 +1,11 @@
+Buongiono,
+sono Leonardo Testolin.
+Volevo chiederle alcune cose riguardante il progetto relativo alla parte SystemC-AMS.
+La parte di Controller può essere implementata come si vuole, ovvero, anche come funzione
+C++ in maniera poi da fare il wrapping di SystemC.
+Valve invece deve essere fatto in SystemC-AMS, ma in uno dei tre stili giusto?
+e stessa cosa deve essere fatta per water tank. Ma i due stili devono essere diversi tra loro?
+E in particolare se uso due stili diversi allora devo poterli far comunicare tra loro?
+Poi alla fine si ha che il controller ha come input l'output della water tank giusto?
+e poi l'output del controller (che sono due) sono gli input per la valve?
+
