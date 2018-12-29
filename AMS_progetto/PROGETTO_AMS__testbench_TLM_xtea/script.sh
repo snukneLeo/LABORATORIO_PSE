@@ -1,0 +1,2 @@
+#!bin/bash
+chmod +x src/main_ALFA.cc src/testbench_AMS.cc src/TLM_controller.cc src/transattore_from_AMS__to_RTL.cc src/transattore_from_RTL_toTDF.cc src/transattore_from_RTL_to_TLM.cc src/transattore_from_TLM_to_RTL.cc src/valve_AMS_TDF.cc src/waterTank_AMS_LSF.cc src/XTEA_RTL.cc

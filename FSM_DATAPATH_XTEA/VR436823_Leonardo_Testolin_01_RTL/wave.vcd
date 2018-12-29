@@ -1,0 +1,124 @@
+$date
+     Dec 28, 2018       12:13:31
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Dec 17 2018 18:23:04
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clk       $end
+$var wire    1  aaaab  rst       $end
+$var wire    1  aaaac  input_ready       $end
+$var wire    1  aaaad  mode       $end
+$var wire   32  aaaae  text_input(0) [31:0]  $end
+$var wire   32  aaaaf  text_input(1) [31:0]  $end
+$var wire   32  aaaag  key_input(0) [31:0]  $end
+$var wire   32  aaaah  key_input(1) [31:0]  $end
+$var wire   32  aaaai  key_input(2) [31:0]  $end
+$var wire   32  aaaaj  key_input(3) [31:0]  $end
+$var wire   32  aaaak  data_output(0) [31:0]  $end
+$var wire   32  aaaal  data_output(1) [31:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+0aaaab
+1aaaac
+0aaaad
+b10010001101000101011001111000 aaaae
+b10011010101111001101111011111111 aaaaf
+b1101010000111010111100011001000 aaaag
+b10001100100001101101011001111111 aaaah
+b101010011001011011111110111110 aaaai
+b10110100101111010110111001000110 aaaaj
+b0 aaaak
+b0 aaaal
+$end
+
+#500
+0aaaaa
+
+#1000
+1aaaaa
+
+#1500
+0aaaaa
+
+#2000
+1aaaaa
+b11011110111010011101010011011000 aaaak
+b11110111000100110001111011011001 aaaal
+
+#2500
+0aaaaa
+
+#3000
+1aaaaa
+b10011001101110111011100100101011 aaaak
+b111110101111010001011001000100 aaaal
+
+#3500
+0aaaaa
+
+#4000
+1aaaaa
+0aaaac
+
+#4500
+0aaaaa
+
+#5000
+1aaaaa
+1aaaad
+
+#5500
+0aaaaa
+
+#6000
+1aaaaa
+1aaaac
+b10011001101110111011100100101011 aaaae
+b111110101111010001011001000100 aaaaf
+
+#6500
+0aaaaa
+
+#7000
+1aaaaa
+
+#7500
+0aaaaa
+
+#8000
+1aaaaa
+b1010111000010101011001000011100 aaaak
+b10111101000101100001000001000 aaaal
+
+#8500
+0aaaaa
+
+#9000
+1aaaaa
+b10010001101000101011001111000 aaaak
+b10011010101111001101111011111111 aaaal
+
+#9500
+0aaaaa
+
+#10000
+1aaaaa
+
+#10500
+0aaaaa
+
+#11000

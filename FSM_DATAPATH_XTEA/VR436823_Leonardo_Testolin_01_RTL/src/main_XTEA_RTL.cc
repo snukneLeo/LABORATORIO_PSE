@@ -18,19 +18,19 @@ int sc_main(int argc, char **argv) {
   XTEA_RTL_testbench xtea_rtl_testbench("xtea_rtl_testbench");
 
   // Setting up the signal tracing
-  /*sc_trace_file *fp = sc_create_vcd_trace_file("wave");
+  sc_trace_file *fp = sc_create_vcd_trace_file("wave");
   sc_trace(fp, clk, "clk");
   sc_trace(fp, rst, "rst");
   sc_trace(fp, input_ready, "input_ready");
   sc_trace(fp, mode, "mode");
-  sc_trace(fp, text_input[0], "text_input(0)");
-  sc_trace(fp, text_input[1], "text_input(1)");
-  sc_trace(fp, key_input[0], "key_input(0)");
-  sc_trace(fp, key_input[1], "key_input(1)");
-  sc_trace(fp, key_input[2], "key_input(2)");
-  sc_trace(fp, key_input[3], "key_input(3)");
-  sc_trace(fp, data_output[0], "data_output(0)");
-  sc_trace(fp, data_output[1], "data_output(1)");*/
+  sc_trace(fp, word0, "text_input(0)");
+  sc_trace(fp, word1, "text_input(1)");
+  sc_trace(fp, key_i0, "key_input(0)");
+  sc_trace(fp, key_i1, "key_input(1)");
+  sc_trace(fp, key_i2, "key_input(2)");
+  sc_trace(fp, key_i3, "key_input(3)");
+  sc_trace(fp, out0, "data_output(0)");
+  sc_trace(fp, out1, "data_output(1)");
 
   xtea_rtl.clk(clk);
   xtea_rtl.rst(rst);
@@ -60,7 +60,7 @@ int sc_main(int argc, char **argv) {
 
   sc_start();
 
-  //sc_close_vcd_trace_file(fp);
+  sc_close_vcd_trace_file(fp);
 
   return 0;
 }

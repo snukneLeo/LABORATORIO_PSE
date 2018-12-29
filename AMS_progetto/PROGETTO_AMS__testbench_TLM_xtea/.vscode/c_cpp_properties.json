@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/snukne/pse_libraries/systemc",
+                "/home/snukne/pse_libraries/systemc-ams",
+                "/home/snukne/pse_libraries/systemc-ams/include",
+                "/home/snukne/pse_libraries/systemc/include",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
